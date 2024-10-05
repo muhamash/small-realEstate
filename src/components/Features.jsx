@@ -11,24 +11,25 @@ export default function Features ()
         {
             title: 'Premium Property Listings',
             descripTion: 'Discover an array of hand-picked properties that meet the highest standards of luxury and comfort.',
-            icon: <FeatureOne/>
+            icon: <FeatureOne />
         },
         {
             title: 'Personalized Property Matching',
             descripTion: 'Our advanced matching system pairs you with properties that align with your specific needs and desires.',
-            icon: <FeatureOne/>
+            icon: <FeatureOne />
         },
         {
             title: 'Expert Guidance and Support',
             descripTion: 'Benefit from the expertise of our dedicated team of real estate professionals.',
-            icon: <FeatureOne/>
+            icon: <FeatureOne />
         },
         {
             title: 'Virtual Tours',
             descripTion: 'Take advantage of our cutting-edge virtual tours and 3D walkthroughs to explore properties from the comfort of your home',
-            icon: <FeatureOne/>
+            icon: <FeatureOne />
         }
-    ]
+    ];
+    
     return (
         <div className="pb-8 pt-20 dark:bg-dark lg:pb-[70px] lg:pt-[120px]">
             <div className="container">

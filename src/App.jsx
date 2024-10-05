@@ -1,7 +1,9 @@
 import './App.css'
+import About from './components/About'
 import Features from './components/Features'
 import Hero from './components/Hero'
 import Nav from './components/Nav'
+import Property from './components/Property'
 
 function App() {
 
@@ -9,7 +11,9 @@ function App() {
     <>
       <Nav />
       <Hero />
-      <Features/>
+      <Features />
+      <Property />
+      <About/>
     </>
   )
 }
