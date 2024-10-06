@@ -1,5 +1,7 @@
 import './App.css'
 import About from './components/About'
+import Cta from './components/Cta'
+import Faq from './components/Faq'
 import Features from './components/Features'
 import Hero from './components/Hero'
 import Nav from './components/Nav'
@@ -13,7 +15,9 @@ function App() {
       <Hero />
       <Features />
       <Property />
-      <About/>
+      <About />
+      <Cta />
+      <Faq/>
     </>
   )
 }
