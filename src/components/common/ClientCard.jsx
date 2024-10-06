@@ -19,7 +19,7 @@ export default function ClientCard({clientImage, clientName, clientPosition}) {
             </div>
             <div className="text-center">
               <h4 className="mb-1 text-lg font-semibold text-dark dark:text-white">
-                {clientName ? clientImage : 'defaultName'}
+                {clientName ? clientName : 'defaultName'}
               </h4>
               <p className="mb-5 text-sm text-body-color dark:text-dark-6">
                 {clientPosition ? clientPosition : 'defaultPosition'}
