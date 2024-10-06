@@ -11,7 +11,7 @@ const NavItems = [
     },
     {
         title: 'Pricing',
-        toLinked: '#pricing',
+        toLinked: '#contact',
     },
     {
         title: 'About',

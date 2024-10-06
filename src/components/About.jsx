@@ -19,6 +19,11 @@ export default function About() {
                 <span>"The main ‘thrust' is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel."</span>
               </Title>
               <Button
+                onClick={ () =>
+                  document
+                    .getElementById( "more" )
+                    ?.scrollIntoView( { behavior: "smooth" } )
+                }
                 className="inline-flex items-center justify-center rounded-md border border-primary bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark mt-5" text={ "Know More" } />
             </div>
           </div>
@@ -51,7 +56,7 @@ export default function About() {
                       Years of experience
                     </span>
                   </div>
-                  <AboutSvg/>
+                  <AboutSvg />
                 </div>
               </div>
             </div>

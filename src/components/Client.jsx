@@ -23,7 +23,7 @@ export default function Client ()
         },
         {
             clientImage: '/team/team-04.png',
-            clientName: 'Mike Johnson',
+            clientName: 'Mike Johnson ii',
             clientPosition: 'SWE'
         }
     ];
