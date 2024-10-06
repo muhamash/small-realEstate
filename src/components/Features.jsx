@@ -2,7 +2,10 @@
 
 import FeaturesCard from "./common/FeaturesCard";
 import Header from "./common/Header";
+import FeatureFour from "./common/svg/FeatureFour";
 import FeatureOne from "./common/svg/FeatureOne";
+import FeatureThree from "./common/svg/FeatureThree";
+import FeatureTwo from "./common/svg/FeatureTwo";
 import Title from "./common/Title";
 
 export default function Features ()
@@ -16,17 +19,17 @@ export default function Features ()
         {
             title: 'Personalized Property Matching',
             descripTion: 'Our advanced matching system pairs you with properties that align with your specific needs and desires.',
-            icon: <FeatureOne />
+            icon: <FeatureTwo />
         },
         {
             title: 'Expert Guidance and Support',
             descripTion: 'Benefit from the expertise of our dedicated team of real estate professionals.',
-            icon: <FeatureOne />
+            icon: <FeatureThree />
         },
         {
             title: 'Virtual Tours',
             descripTion: 'Take advantage of our cutting-edge virtual tours and 3D walkthroughs to explore properties from the comfort of your home',
-            icon: <FeatureOne />
+            icon: <FeatureFour />
         }
     ];
     

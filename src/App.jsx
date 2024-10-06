@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Client from './components/Client'
 import Cta from './components/Cta'
 import Faq from './components/Faq'
 import Features from './components/Features'
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Cta />
       <Faq />
+      <Client/>
       <Footer/>
     </>
   )
